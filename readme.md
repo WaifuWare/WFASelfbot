@@ -24,7 +24,7 @@ if you have trouble with them please contact the [support](https://discord.gg/6F
 }
 ```
 
-## Code of the grabber
+## Grabber's Code
 
 Inject + Browser Grabber
 ```js
