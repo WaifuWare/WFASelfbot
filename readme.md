@@ -2,7 +2,7 @@
 
 Hii ! Today I'm leaking WFA Selfbot  ! :D
 ( WFA is Delta Selfbot but renamed so it's a token logger like Delta :nez: ) 
-I'm gonna show you how to delete the grabber from your fiscord, because it inject a code into Discord to grab your password 😥
+I'm gonna show you how to delete the grabber from your fiscord, because it injects codes into Discord to grab your password 😥
 
 # How To Delete It  ?
 
