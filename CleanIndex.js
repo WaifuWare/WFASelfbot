@@ -644,7 +644,7 @@ client.on("message", message => {
     }
 
     if (message.content.startsWith(prefix + "tokyo ghoul")) {
-        let argument = args.splice(2).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(2).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "tokyo")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -667,7 +667,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "hunter x hunter")) {
-        let argument = args.splice(3).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(3).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "hxh")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -690,7 +690,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "naruto")) {
-        let argument = args.splice(1).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(1).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("721465320740487179", "naruto")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -700,7 +700,7 @@ client.on("message", message => {
                     .setApplicationId("721465320740487179")
                     .setDetails('Naruto')
                     .setAssetsLargeImage(image.id)
-                    .setAssetsLargeText("Delta-Selfbot R")
+                    .setAssetsLargeText("WFA-Selfbot R")
                     .setState(argument)
                     .setStartTimestamp(Date.now())
 
@@ -713,7 +713,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "pornhub")) {
-        let argument = args.splice(1).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(1).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "pornhub")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -736,7 +736,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "clash of clan")) {
-        let argument = args.splice(3).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(3).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("721465320740487179", "clash-of-clans-app-icon")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -759,7 +759,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "minecraft")) {
-        let argument = args.splice(1).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(1).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "minecraft")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -782,7 +782,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "clash royal")) {
-        let argument = args.splice(2).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(2).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "clashroyal")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -805,7 +805,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "tinder")) {
-        let argument = args.splice(1).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(1).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "tinder")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -828,7 +828,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "roblox")) {
-        let argument = args.splice(1).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(1).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "roblox")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -851,7 +851,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "badlion")) {
-        let argument = args.splice(1).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(1).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "badlion")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -874,7 +874,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "apex")) {
-        let argument = args.splice(1).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(1).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "apex")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -897,7 +897,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "csgo")) {
-        let argument = args.splice(1).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(1).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "csgo")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
@@ -919,7 +919,7 @@ client.on("message", message => {
             })
     }
     if (message.content.startsWith(prefix + "among us")) {
-        let argument = args.splice(2).join(" ") || "Delta-Selfbot";
+        let argument = args.splice(2).join(" ") || "WFA-Selfbot";
         rpcGenerator.getRpcImage("603405368940429315", "amongus")
             .then(image => {
                 let presence = new rpcGenerator.Rpc()
